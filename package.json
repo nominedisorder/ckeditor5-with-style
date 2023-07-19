@@ -2,9 +2,26 @@
   "name": "@wdsmartech/ckeditor5-with-style",
   "author": "Aaron Beauchamp",
   "description": "A custom CKEditor 5 build with style package",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "wysiwyg",
+    "rich text",
+    "editor",
+    "html",
+    "contentEditable",
+    "editing",
+    "operational transformation",
+    "ot",
+    "collaboration",
+    "collaborative",
+    "real-time",
+    "framework",
+    "style"
+  ],
   "version": "0.0.1",
   "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
   "main": "./build/ckeditor.js",
   "devDependencies": {
     "@ckeditor/ckeditor5-alignment": "^38.1.0",
@@ -50,5 +67,13 @@
   },
   "scripts": {
     "build": "webpack --mode production"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nominedisorder/ckeditor5-with-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nominedisorder/ckeditor5-with-style/issues"
+  },
+  "homepage": "https://github.com/nominedisorder/ckeditor5-with-style#readme"
 }
